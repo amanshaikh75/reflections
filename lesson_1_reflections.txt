@@ -1,0 +1,39 @@
+Q: How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+A: Viewing diff between two versions of a file helps us see what changed from
+the old version to the new version.
+
+Q: How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+A: You can look at all the changes that have been made over time. Sometimes,
+it can help you track down bugs which could have been introduced some time
+ago.
+
+Q: What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+A: Manually choosing when to commit gives users control over what the
+individual commits mean. However, there is a possibility that a user might
+forget to commit or commit too infrequently.
+
+Q: Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+A: Git is related to software development, and a software project often
+consists of collection of related files. Google Docs is much more general, so
+it can't assume anything about relationship between files.
+
+Q: How can you use the commands git log and git diff to view the history of
+files?
+A: Command 'git log' tells us about all the commits along with their IDs. 'git
+diff' between any two commit IDs tells us about the difference between the two
+commits. Successively running 'git diff' over consecutive IDs allows us to
+determine history of files.
+
+Q: How might using version control make you more confident to make changes
+that could break something?
+A: With version control you have history of all the changes you have made, and
+you can easily go to an earlier version of a file if needed. Therefore it make
+you more confident in making changes because even if something breaks you can
+always "revert the change". I must note that judicious use of comments during 
+commits makes this process significantly easier.
