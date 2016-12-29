@@ -2,3 +2,9 @@ Q: What happens when you initialize a repository? Why do you need to do it?
 A: When we initialize a repository, .git sub-directory is created.
 Initializing a repository is what allows you to create a git repository and
 then start adding sub-directories and files to it.
+
+Q: How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+A: The staging area allows you to store files that you want to add to the
+repository. It allows you to collect all the files before they're committed in
+a single command.
