@@ -1,0 +1,2 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: There are couple of reasons for keeping a remote repository. First, if you are collaborating on a project, different people may have their own local repositories. In this case, it would make sense to periodically sync to a common remote repository. Second, your local machine might not be very reliable (e.g., infrequent back-ups) in which case you may want to keep a remote repository on a more reliable machine.
