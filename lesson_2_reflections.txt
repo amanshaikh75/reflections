@@ -8,3 +8,28 @@ repository? What value do you think it offers?
 A: The staging area allows you to store files that you want to add to the
 repository. It allows you to collect all the files before they're committed in
 a single command.
+
+Q: How can you use the staging area to make sure you have one commit per
+logical change?
+A: You can add all the (changed) files in a logical file to the staging area
+and then issue a commit.
+
+Q: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+A: Branches are useful when you want to try out something but not impact the
+main branch. It could be an experimental feature for example.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: Diagrams make it easier to see the relationship between branches and
+commits.
+
+Q: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+A: The result of merging two branches together is that changes made in the two
+branches are combined. That's why they are represented in the diagram the way
+they are.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+A: Automatic merging saves time and hassle but can result in unintended
+consequences if done too aggressively.
