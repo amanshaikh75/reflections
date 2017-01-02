@@ -1,2 +1,15 @@
 Q: When would you want to use a remote repository rather than keeping all your work local?
 A: There are couple of reasons for keeping a remote repository. First, if you are collaborating on a project, different people may have their own local repositories. In this case, it would make sense to periodically sync to a common remote repository. Second, your local machine might not be very reliable (e.g., infrequent back-ups) in which case you may want to keep a remote repository on a more reliable machine.
+
+Q: Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+A: You may not want your commit to be visible in your remote repository in
+some cases. One example would be when you are trying something out on an
+experimental basis.
+
+Q: Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+A: clone is used for copying a repository from one location to another. Fork
+is similar to clone except that it is used for cloning a repository from one
+user account to another on GitHub. Finally, branch is used within a repository
+to create another path of commits for reasons like experimentation.
