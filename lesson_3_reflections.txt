@@ -13,3 +13,24 @@ A: clone is used for copying a repository from one location to another. Fork
 is similar to clone except that it is used for cloning a repository from one
 user account to another on GitHub. Finally, branch is used within a repository
 to create another path of commits for reasons like experimentation.
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+A: Knowing the last state of a remote repository locally helps in resolving
+conflicts when local and remote copies diverge.
+
+Q: How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+A: Collaborating without Git or GitHub would be very hard. First, without Git
+it would be impossible to keep track of version history. Furthermore, it would
+be very hard to handle conflicts.
+
+Q: When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+A: If I am working on an experimental feature, I would prefer to make changes 
+in a separate branch. This makes it easier to discard the changes should I
+decide not to go ahead with the feature. The downside is the complexity of
+doing a merge if others have modified the master branch in the meantime, and I
+decide to make the experimental feature mainstream.
+The advantage of doing changes in the master branch is that it keeps things
+more straight-forward.
